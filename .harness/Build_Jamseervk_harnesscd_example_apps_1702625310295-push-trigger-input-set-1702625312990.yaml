@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Jamseervk_harnesscd_example_apps_1702625310295-push-trigger-input-set
+  identifier: Build_Jamseervk_harnesscd_example_apps_1702625310295pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Jamseervk_harnesscd_example_apps_1702625310295
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
